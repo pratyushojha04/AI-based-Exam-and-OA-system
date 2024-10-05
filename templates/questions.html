@@ -1,0 +1,30 @@
+<!-- templates/questions.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Machine Learning Questions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Machine Learning Quiz</h1>
+    </header>
+    <main class="form-container">
+        <h2>Machine Learning Questions</h2>
+        <form method="POST" action="{{ url_for('questions') }}">
+            <input type="hidden" name="name" value="{{ request.args.get('name') }}">
+            {% for question in questions.itertuples() %}
+                <div class="question-container">
+                    <h3>Q{{ loop.index }}: {{ question.Question }}</h3>
+                    <textarea name="answer{{ loop.index }}" required></textarea>
+                </div>
+            {% endfor %}
+            <button type="submit">Submit Answers</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Machine Learning Quiz. All rights reserved.</p>
+    </footer>
+</body>
+</html>

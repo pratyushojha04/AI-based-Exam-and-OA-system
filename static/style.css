@@ -1,0 +1,70 @@
+/* static/style.css */
+
+body {
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff); /* Background gradient */ /* Background gradient */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Layout header, main, and footer in a column */
+    min-height: 100vh; /* Full viewport height */
+}
+
+header {
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Center header text */
+}
+
+footer {
+    background-color: #333; /* Footer background color */
+    color: white; /* Footer text color */
+    padding: 10px; /* Padding for footer */
+    text-align: center; /* Center footer text */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+main.form-container {
+
+    background: linear-gradient(45deg, #eaaaaa, #a7dea7, #a6a6e5); /* Background gradient */       /* White background for the form container */
+    max-width: 600px;             /* Maximum width of the container */
+    margin: 20px auto;            /* Center the container */
+    padding: 20px;                /* Padding inside the container */
+    border-radius: 8px;           /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;           /* Center text inside the container */
+    overflow-y: auto;             /* Enable scrolling if content overflows */
+}
+
+.question-container {
+    margin-bottom: 20px;          /* Space between questions */
+    text-align: left;             /* Align text to the left */
+}
+
+input[type="hidden"] {
+    display: none; /* Hide hidden input field */
+}
+
+textarea {
+    width: 100%;                  /* Full width for answer field */
+    height: 100px;                /* Height for answer field */
+    padding: 10px;                /* Padding inside the textarea */
+    border-radius: 4px;           /* Slightly rounded corners */
+    border: 1px solid #ccc;       /* Light gray border */
+    margin-top: 10px;             /* Space between question and answer */
+}
+
+button {
+    background-color: #043b06;   /* Green background */
+    color: white;                 /* White text color */
+    border: none;                 /* No border */
+    padding: 10px;                /* Padding inside the button */
+    cursor: pointer;              /* Pointer cursor on hover */
+    width: 100%;                  /* Full width button */
+    border-radius: 4px;           /* Slightly rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #45a049;    /* Darker green on hover */
+}

@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Machine Learning Quiz</title>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff); font-family: Arial, sans-serif;">
+    <div class="form-container" style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); max-width: 400px; text-align: center;">
+        <h1 style="margin-bottom: 20px;">Welcome to the Machine Learning Quiz!</h1>
+        <form action="{{ url_for('questions') }}" method="GET" style="display: flex; flex-direction: column;">
+            <input type="text" name="name" placeholder="Enter your name" required style="padding: 10px; margin-bottom: 20px; font-size: 16px; border-radius: 4px; border: 1px solid #ccc;">
+            <button type="submit" style="padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;">
+                Start Quiz
+            </button>
+        </form>
+    </div>
+</body>
+</html>

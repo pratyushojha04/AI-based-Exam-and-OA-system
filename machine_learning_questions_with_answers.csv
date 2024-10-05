@@ -1,0 +1,51 @@
+Question,Answer
+1. What is the difference between supervised and unsupervised learning?,"Supervised learning uses labeled data to train models, while unsupervised learning uses unlabeled data to find patterns."
+2. What is overfitting and how can it be prevented?,"Overfitting occurs when a model learns noise instead of the underlying pattern. It can be prevented using techniques like regularization, pruning, and using simpler models."
+3. Explain the concept of cross-validation.,Cross-validation is a technique for assessing how the results of a statistical analysis will generalize to an independent data set.
+4. What is a confusion matrix?,A confusion matrix is a table used to describe the performance of a classification model by comparing predicted values to actual values.
+5. What is precision and recall?,Precision is the ratio of correctly predicted positive observations to the total predicted positives. Recall (sensitivity) is the ratio of correctly predicted positive observations to all actual positives.
+6. Describe the bias-variance tradeoff.,Bias-variance tradeoff is the balance between error due to bias (error from overly simplistic models) and variance (error from too much complexity).
+7. What are the main types of machine learning algorithms?,"Main types include supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
+8. Explain what a ROC curve is.,ROC curve (Receiver Operating Characteristic curve) is a graphical plot that illustrates the diagnostic ability of a binary classifier system.
+9. What is the purpose of regularization?,"Regularization helps prevent overfitting by adding a penalty term to the loss function, discouraging overly complex models."
+10. Define and explain the concept of a neural network.,"A neural network is a computational model inspired by the way biological neural networks in the human brain work, consisting of interconnected nodes (neurons)."
+11. What is gradient descent?,Gradient descent is an optimization algorithm used to minimize the loss function by iteratively moving in the direction of the steepest descent.
+12. Describe the importance of feature selection.,Feature selection is the process of selecting a subset of relevant features for use in model construction.
+13. What is the purpose of the training and test sets?,"Training set is used to fit the model, while the test set is used to evaluate its performance on unseen data."
+14. Explain the concept of clustering.,Clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than those in other groups.
+15. What is a decision tree?,"A decision tree is a flowchart-like tree structure used for making decisions, where each internal node represents a feature, each branch a decision rule, and each leaf node an outcome."
+16. How do you handle missing data?,Missing data can be handled by imputation (filling in missing values) or by using algorithms that support missing values.
+17. What are hyperparameters?,"Hyperparameters are the parameters that are set before the learning process begins, influencing the behavior of the training algorithm."
+18. What is the difference between bagging and boosting?,"Bagging reduces variance by averaging multiple models (e.g., random forests), while boosting reduces bias by combining weak learners to create a strong learner."
+19. Explain the concept of support vector machines (SVM).,SVM is a supervised learning model that finds the hyperplane that best separates data into different classes.
+20. What is natural language processing (NLP)?,"NLP is a field of AI that enables computers to understand, interpret, and respond to human language."
+21. What are the differences between classification and regression?,"Classification predicts categorical outcomes, while regression predicts continuous outcomes."
+22. Explain the k-nearest neighbors algorithm.,k-NN algorithm classifies a data point based on how its neighbors are classified.
+23. What is the curse of dimensionality?,Curse of dimensionality refers to the challenges faced by machine learning algorithms as the number of features grows.
+24. Describe the purpose of a validation set.,A validation set is used to tune the hyperparameters of a model and prevent overfitting.
+25. What is the significance of data normalization?,"Data normalization scales the features to ensure that they have a mean of 0 and a standard deviation of 1, improving model performance."
+26. Explain the purpose of PCA (Principal Component Analysis).,PCA is a dimensionality reduction technique that transforms a dataset into a set of linearly uncorrelated variables.
+27. What is reinforcement learning?,Reinforcement learning is a type of machine learning where an agent learns by interacting with an environment and receiving feedback.
+28. Define ensemble learning.,Ensemble learning combines multiple models to improve performance and reduce overfitting.
+29. Explain the concept of transfer learning.,Transfer learning is a technique where a model trained on one task is adapted to a different but related task.
+30. What are some common metrics for evaluating machine learning models?,"Common metrics include accuracy, precision, recall, F1-score, and area under the ROC curve."
+31. What is deep learning?,Deep learning is a subset of machine learning that uses neural networks with many layers to analyze various forms of data.
+32. Describe the concept of an activation function.,"Activation functions introduce non-linearities into the model, enabling the network to learn complex patterns."
+33. What is over-sampling and under-sampling?,"Over-sampling increases the number of instances in the minority class, while under-sampling reduces instances in the majority class."
+34. How do you evaluate the performance of a classification model?,"Performance can be evaluated using metrics such as accuracy, confusion matrix, precision, recall, and F1-score."
+35. What is the purpose of a cost function?,"A cost function measures how well a model's predictions match the actual data, guiding the optimization process."
+36. Explain the differences between L1 and L2 regularization.,"L1 regularization adds the absolute value of coefficients as a penalty term, while L2 regularization adds the square of coefficients."
+37. What are generative adversarial networks (GANs)?,GANs are a class of machine learning frameworks where two neural networks contest with each other in a game.
+38. What is the purpose of a feature engineering?,Feature engineering involves creating new features or modifying existing ones to improve model performance.
+39. Explain the difference between a model and an algorithm.,"A model is a representation of the relationships learned from data, while an algorithm is the method used to find that model."
+40. What is time series forecasting?,Time series forecasting involves predicting future values based on previously observed values in the data.
+41. Describe the importance of interpretability in machine learning.,"Interpretability is important for understanding how models make decisions, especially in high-stakes applications."
+42. What are autoencoders?,Autoencoders are a type of artificial neural network used to learn efficient representations of data.
+43. What is the difference between model training and model inference?,"Model training is the process of teaching a model to make predictions, while inference is when the model is used to make predictions."
+44. Explain the role of activation functions in neural networks.,Activation functions help determine whether a neuron should be activated based on the input it receives.
+45. What is the difference between a stochastic gradient descent and a batch gradient descent?,"Stochastic gradient descent updates model parameters using a subset of the training data, while batch gradient descent uses the entire dataset."
+46. Describe the process of model deployment.,Model deployment involves making a trained model available for use in a production environment.
+47. What are the challenges in deploying machine learning models?,"Challenges include model drift, data privacy, scalability, and integration with existing systems."
+48. What is A/B testing in machine learning?,A/B testing involves comparing two versions of a model or algorithm to determine which one performs better.
+49. What is the importance of data quality in machine learning?,Data quality is crucial for ensuring that machine learning models are reliable and perform well in real-world scenarios.
+50. Explain the concept of clustering algorithms.,Clustering algorithms are used to group similar data points together based on certain features or metrics.
